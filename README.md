@@ -1,14 +1,16 @@
-# AI Resume Matcher
+# React + Vite
 
-A premium, highly interactive web application designed to help job seekers optimize their resumes against specific target job descriptions. Built using React, Vite, and Tailwind CSS, the platform features a polished, production-ready SaaS dashboard layout.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-##  Key Features
-* **Interactive File Uploader:** Stylized drag-and-drop file target area supporting PDF and DOCX uploads.
-* **Smart ATS Metrics & Progress Loader:** A smooth, custom-animated progress bar that dynamically ticks up to reveal the final match score.
-* **Structured Grid Layout:** Uses clean color psychology (Emerald for matching core competencies, Rose for missing keywords) to organize keyword data into highly readable card arrays.
-* **Fluid Theme Switcher:** Integrated custom global state handling to switch effortlessly between Light Mode and a modern Cyberpunk Dark Mode.
+Currently, two official plugins are available:
 
-##  Tech Stack
-* **Frontend:** React (Hooks & Functional Components)
-* **Build Tool:** Vite
-* **Styling:** Tailwind CSS (Utility-first styling, Flexbox/Grid, Dark Mode variants)
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+
+## React Compiler
+
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
